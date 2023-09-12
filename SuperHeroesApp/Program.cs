@@ -12,6 +12,7 @@ superFuerza.Nivel = NivelPoder.NivelTres;
 
 var spiderman = new SuperHeroe();
 
+
 spiderman.Id = 1;
 spiderman.Name = "Spider Man";
 spiderman.IdentidadSecreta = "piter Parker";
@@ -22,6 +23,7 @@ List<SuperPoder>  poderesSpiderman = new List<SuperPoder>();
 poderesSpiderman.Add(poderVolar);
 poderesSpiderman.Add(superFuerza);
 spiderman.SuperPoderes = poderesSpiderman;  
+
 
 class SuperHeroe
 {
@@ -39,6 +41,11 @@ class SuperPoder
     public string Nombre;
     public string Descripcion;
     public NivelPoder Nivel;
+}
+
+class SuperV
+{
+
 }
 
 enum NivelPoder
