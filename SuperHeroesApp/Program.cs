@@ -43,11 +43,6 @@ class SuperPoder
     public NivelPoder Nivel;
 }
 
-class SuperV
-{
-
-}
-
 enum NivelPoder
 {
     NivelUno,
